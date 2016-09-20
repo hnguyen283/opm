@@ -1,4 +1,4 @@
-package com.chicken.service;
+package com.chick.service;
 
 import java.util.List;
 

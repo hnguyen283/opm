@@ -1,6 +1,6 @@
 package com.chick.model.object;
 
-import com.chicken.model.ab.Profile;
+import com.chick.model.ab.Profile;
 
 public class Account extends Profile {
 	

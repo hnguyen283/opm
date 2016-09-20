@@ -1,4 +1,4 @@
-package com.chicken.model.ab;
+package com.chick.model.ab;
 
 public abstract class Profile {
 	
