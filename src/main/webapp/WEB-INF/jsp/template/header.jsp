@@ -22,11 +22,10 @@
 
 
 <!--Import jQuery before materialize.js-->
-<script type="text/javascript"
-	src="<%=request.getContextPath()%>/resources/js/jquery/jquery-3.1.0.min.js"></script>
+<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/jquery/jquery-3.1.0.min.js"></script>
 	
 <!-- <!--Import Boostrap JS-->
-<!-- <script type="text/javascript" -->
-<%-- 	src="<%=request.getContextPath()%>/resources/js/bootstrap/bootstrap-3.3.7.js"></script> --%>
+<script type="text/javascript"
+	src="<%=request.getContextPath()%>/resources/js/bootstrap/bootstrap-3.3.7.js"></script>
 </head>
 <body>
