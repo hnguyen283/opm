@@ -19,6 +19,7 @@
 	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-animate.js"></script>
 	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-aria.js"></script>
 	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-messages.js"></script>
+	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-route.js"></script>
 	
 	<!-- Angular Material Library -->
 	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-material.js"></script>

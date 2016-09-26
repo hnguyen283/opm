@@ -8,7 +8,7 @@ opmApp.config(['$routeProvider',
                           templateUrl: 'jsp/home/index.jsp',
                           controller: 'HomeController'
                         })
-                        otherwise({
+                        .otherwise({
                           redirectTo: '/'
                         });
                     }]);
