@@ -4,6 +4,10 @@ public abstract class Profile {
 	
 	public String id;
 	public String name;
+	
+	public Profile() {
+		super();
+	}
 	public Profile(String id, String name) {
 		super();
 		this.id = id;

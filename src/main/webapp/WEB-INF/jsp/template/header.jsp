@@ -25,4 +25,5 @@
 	<script type="text/javascript"src="<%=request.getContextPath()%>/resources/js/angular-material.js"></script>
 	
 	<script src="<%=request.getContextPath()%>/resources/app-code/app.js"></script>
+	<script src="<%=request.getContextPath()%>/resources/app-code/directive.js"></script>
 	

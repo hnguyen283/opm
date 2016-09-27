@@ -6,11 +6,15 @@ public class Account extends Profile {
 	
 	private String username ;
 	private String password;
+	
+	public Account() {
+		super();
+	}
 	public Account(String id, String name, String username, String password) {
 		super(id, name);
 		this.username = username;
 		this.password = password;
-	}
+	}	
 	public String getUsername() {
 		return username;
 	}

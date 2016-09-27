@@ -1,5 +1,5 @@
 "use strict";
-var opmApp = angular.module('opmApp', ['ngRoute','homeController']);
+var opmApp = angular.module('opmApp', ['ngRoute','ngMaterial','homeController','directiveCommon']);
 
 opmApp.config(['$routeProvider',
                     function($routeProvider) {
