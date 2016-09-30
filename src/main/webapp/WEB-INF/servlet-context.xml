@@ -16,6 +16,7 @@
 		base-package="com.chick.model, com.chick.controller, com.chick.dao, com.chick.service, com.chick.api" />
 	<mvc:annotation-driven />
 
+
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">

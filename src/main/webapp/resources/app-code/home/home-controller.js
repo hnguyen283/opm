@@ -4,11 +4,21 @@
  * 
  */
 "use strict";
-var homeController = angular.module('homeController', []);
 
-homeController.controller('HomeController', ['$scope', '$http', 
-function ($scope,$http) {
-	$http.get('load/byname/account-list').success(function(data) {			
-		$scope.accounts = angular.fromJson(data);
-	});
+opmApp.controller("HomeController", ['$scope','commonService',
+function($scope,commonService){
+	
+
+//	Attach another service .. into this controller
+	this.commonService = commonService;
+	
+//	init function, load data and function when load page
+	$scope.init = function(){
+		$scope.accounts = commonService.getByName(commonService.endpoints.ACCOUNT_LIST);
+	};
+	$scope.init();	
+	
+	
+	
 }]);
+

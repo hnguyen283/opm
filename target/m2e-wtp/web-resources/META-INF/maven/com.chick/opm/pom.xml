@@ -15,8 +15,9 @@
 		<servlet-api.version>3.1.0</servlet-api.version>
 		<mysql.version>5.1.37</mysql.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<gson.version>2.7</gson.version>
+		<jackson.version>2.7.3</jackson.version>
 		<mongo.version>3.2.2</mongo.version>
+		<jackson.mapper>1.9.13</jackson.mapper>
 	</properties>
 	
 	<dependencies>
@@ -85,12 +86,24 @@
 			<version>${servlet-api.version}</version>
 		</dependency>
 		
-		<!-- Gson dependencies -->
+		<!-- Json dependencies -->
 		<!-- Support transfer data, format data -->
 		<dependency>
-			<groupId>com.google.code.gson</groupId>
-			<artifactId>gson</artifactId>
-			<version>${gson.version}</version>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.codehaus.jackson</groupId>
+		    <artifactId>jackson-mapper-asl</artifactId>
+		    <version>${jackson.mapper}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-annotations</artifactId>
+		    <version>${jackson.version}</version>
 		</dependency>
 	
 		<!-- Java Mail dependencies -->

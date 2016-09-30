@@ -9,13 +9,10 @@
 </head>
 <body layout="row" ng-controller="HomeController">
 	<div layout="column" layout-fill role="main">
-		<md-content layout="column">
-			<div ng-repeat="name in accounts">
-				<div flex="25" layout="row">
-					<card-v1 key="{{name}}"></card-v1>
-				</div>
-			</div>				
-	  	</md-content>   
-  	</div>   
-</body>
-</html>
+		<div lazy-scroll="paginationFuntion()" lazy-scroll-trigger="80" >
+			<md-content layout="column">				
+		  	</md-content>   
+	  	</div>
+	</div>
+  	
+<jsp:include page="/WEB-INF/jsp/template/footer.jsp"></jsp:include>   

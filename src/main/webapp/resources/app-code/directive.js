@@ -1,7 +1,12 @@
+/**
+ * author: Nguyen Dong Hung
+ * 
+ * 
+ */
 "use strict";
+var directiveModule = angular.module('directiveModule', []);
 
-angular.module('directiveCommon', [])
-.directive('cardV1', function() {
+directiveModule.directive('cardV1', function() {
   return {
     restrict: 'E',
     transclude: true,

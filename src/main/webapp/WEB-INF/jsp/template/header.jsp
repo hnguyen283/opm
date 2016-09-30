@@ -26,4 +26,5 @@
 	
 	<script src="<%=request.getContextPath()%>/resources/app-code/app.js"></script>
 	<script src="<%=request.getContextPath()%>/resources/app-code/directive.js"></script>
+	<script src="<%=request.getContextPath()%>/resources/app-code/common-service.js"></script>
 	

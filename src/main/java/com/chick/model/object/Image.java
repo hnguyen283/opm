@@ -1,7 +1,10 @@
 package com.chick.model.object;
 
 import com.chick.model.ab.File;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
+@JsonInclude(Include.NON_NULL)
 public class Image extends File {
 	String width;
 	String height;	
